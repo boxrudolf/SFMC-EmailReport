@@ -15,9 +15,9 @@ router.get('/login', function (request, response, next) {
     log.info("LOGIN Updated");
     log.info("Headers" + JSON.stringify(request.headers));
     log.info("UrlVars:" + JSON.stringify(query));
-    log.info("Body" + JSON.stringify(request.body.length));
-    log.info("Cookie" + JSON.stringify(request.cookies.length));
-    log.info("Params" + JSON.stringify(request.params.length));
+    log.info("Body" + request.body);
+    log.info("Cookie" + request.cookies);
+    log.info("Params" + request.params);
 
     response.render('index', { title: "POST LOGIN" }); 
 
