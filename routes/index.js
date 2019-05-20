@@ -39,7 +39,7 @@ router.get('/', function (request, response, next) {
     log.info("Headers" + JSON.stringify(request.headers));
     log.info("UrlVars:" + JSON.stringify(query));
     log.info("Body" + JSON.stringify(request.body));
-    response.render('/', { title: "TOKEN " + JSON.stringify(token) + "  DECODEDJWT  " + JSON.stringify(decodedJWT) });    
+    response.render('/', { title: "TOKEN " + JSON.stringify("Notoken")});    
 });
 
 module.exports = router;
