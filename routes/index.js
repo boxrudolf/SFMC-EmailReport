@@ -6,42 +6,40 @@ const log = require('simple-node-logger').createSimpleLogger('project.log');
 
 log.info("Inicio Entra en la app");
 
-
-
-
-
-// CODIFICADOR JWT
-var payload = {
-  foo: 'adios'
-};
-var secret = 'XwdKtoBAV9fwBfFKCZCmTyCW';
-
-var token = jwt.encode(payload, secret);
-var decoded = jwt.decode(token, secret);
-
-// DECODIFICADOR DE JWT
-var encodedJWT = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmb28iOiJhZGlvcyJ9.G5tFr4hK4tkljznknH7oG_SRgsBHJLr3XYbvl69hDCg";
-var secret = "XwdKtoBAV9fwBfFKCZCmTyCW";
-var decodedJWT = jwt.decode(encodedJWT, secret);
-
 /* GET home page. */
-router.get('/', function (request, response, next) {
+router.get('/login', function (request, response, next) {
     var url_parts = url.parse(request.url, true);
     var query = url_parts.query;
-    console.log("--------------");
- 
 
+    log.info("LOGIN");
     log.info("Headers" + JSON.stringify(request.headers));
     log.info("UrlVars:" + JSON.stringify(query));
     log.info("Body" + JSON.stringify(request.body));
-    
-    
-    
-    response.render('index', { title: "TOKEN " + JSON.stringify(token) + "  DECODEDJWT  " + JSON.stringify(decodedJWT) });
-  // res.render('index', {
-  //   title: JSON.stringify(token) + "||" + JSON.stringify(decoded) +
-  //     "||" + JSON.stringify(payload)
-  // });
+           
+    response.render('index', { title: "LOGIN"});
+
+});
+
+router.get('/logout', function (request, response, next) {
+    var url_parts = url.parse(request.url, true);
+    var query = url_parts.query;
+
+    log.info("LOGOUT");
+    log.info("Headers" + JSON.stringify(request.headers));
+    log.info("UrlVars:" + JSON.stringify(query));
+    log.info("Body" + JSON.stringify(request.body));
+
+    response.render('index', { title: "LOGOUT" });
+});
+
+router.get('/', function (request, response, next) {
+    var url_parts = url.parse(request.url, true);
+    var query = url_parts.query;
+    log.info("LOGOUT");
+    log.info("Headers" + JSON.stringify(request.headers));
+    log.info("UrlVars:" + JSON.stringify(query));
+    log.info("Body" + JSON.stringify(request.body));
+    response.render('/', { title: "TOKEN " + JSON.stringify(token) + "  DECODEDJWT  " + JSON.stringify(decodedJWT) });    
 });
 
 module.exports = router;
