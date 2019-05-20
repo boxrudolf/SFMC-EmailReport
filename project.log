@@ -1,0 +1,28 @@
+11:12:22.527 INFO  Into: Apps. Accepted at 2019-05-20T09:12:22.526Z 
+11:12:22.527 ERROR Test Error 
+11:12:22.528 ERROR error test 2 
+11:31:58.332 INFO  Inicio Entra en la app 
+11:32:27.623 INFO  Inicio Entra en la app 
+11:33:03.377 INFO  Inicio Entra en la app 
+11:34:06.510 INFO  Inicio Entra en la app 
+11:35:14.682 INFO  Inicio Entra en la app 
+11:36:00.693 INFO  Inicio Entra en la app 
+11:36:01.162 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9"} 
+11:36:01.163 INFO  UrlVars:{} 
+11:36:01.163 INFO  Body{} 
+11:36:05.122 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9","if-none-match":"W/\"28d-AHyrvtSlMnT/jU/dFxJVKo8WYsY\""} 
+11:36:05.122 INFO  UrlVars:{} 
+11:36:05.122 INFO  Body{} 
+11:36:34.290 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9","if-none-match":"W/\"28d-AHyrvtSlMnT/jU/dFxJVKo8WYsY\""} 
+11:36:34.290 INFO  UrlVars:{} 
+11:36:34.290 INFO  Body{} 
+11:36:34.322 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9"} 
+11:36:34.322 INFO  UrlVars:{} 
+11:36:34.322 INFO  Body{} 
+11:36:34.341 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9"} 
+11:36:34.341 INFO  UrlVars:{} 
+11:36:34.341 INFO  Body{} 
+11:36:40.440 INFO  Inicio Entra en la app 
+11:36:41.171 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9","if-none-match":"W/\"28d-AHyrvtSlMnT/jU/dFxJVKo8WYsY\""} 
+11:36:41.171 INFO  UrlVars:{} 
+11:36:41.171 INFO  Body{} 
