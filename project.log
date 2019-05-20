@@ -26,3 +26,16 @@
 11:36:41.171 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9","if-none-match":"W/\"28d-AHyrvtSlMnT/jU/dFxJVKo8WYsY\""} 
 11:36:41.171 INFO  UrlVars:{} 
 11:36:41.171 INFO  Body{} 
+11:56:16.502 INFO  Inicio Entra en la app 
+11:56:24.314 INFO  LOGOUT 
+11:56:24.314 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","purpose":"prefetch","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9","if-none-match":"W/\"28d-AHyrvtSlMnT/jU/dFxJVKo8WYsY\""} 
+11:56:24.314 INFO  UrlVars:{} 
+11:56:24.314 INFO  Body{} 
+11:56:32.016 INFO  LOGIN 
+11:56:32.016 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9"} 
+11:56:32.016 INFO  UrlVars:{} 
+11:56:32.017 INFO  Body{} 
+11:56:35.365 INFO  LOGOUT 
+11:56:35.366 INFO  Headers{"host":"localhost:3000","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate, br","accept-language":"es-419,es;q=0.9"} 
+11:56:35.366 INFO  UrlVars:{} 
+11:56:35.366 INFO  Body{} 
