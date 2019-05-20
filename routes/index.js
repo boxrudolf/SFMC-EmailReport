@@ -30,13 +30,13 @@ router.post('/login', function (request, response, next) {
     var url_parts = url.parse(request.url, true);
     var query = url_parts.query;
 
-    log.info("LOGIN");
+    log.info("LOGIN Updated");
     log.info("Headers" + JSON.stringify(request.headers));
     log.info("UrlVars:" + JSON.stringify(query));
     log.info("Body" + JSON.stringify(request));
     log.info("Params" + JSON.stringify(request));
 
-    response.render('index', { title: "POST LOGIN" });
+    response.render('index', { title: "POST LOGIN" }); 
 
 });
 
